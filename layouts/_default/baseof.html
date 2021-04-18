@@ -4,6 +4,7 @@
     {{ partial "head.html" . }}
   </head>
   <body>
+    {{ partial "load-photoswipe-theme.html" . }}
     {{ partial "nav.html" . }}
     {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
     {{ block "main" . }}{{ end }}
